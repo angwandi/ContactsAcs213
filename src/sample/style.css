@@ -1,8 +1,7 @@
-/*.table-view {*/
-/*!*-fx-background-image: url("images/network-3537401_1920.jpg");*!*/
-/*}*/
+
 .root {
-    -fx-background-color: rgb(225, 228, 203);
+    /*-fx-background-color: rgb(225, 228, 203);*/
+    -fx-background-image: url("images/background.jpg");
 }
 
 /*TableView*/
@@ -28,6 +27,11 @@
 .table-row-cell:selected {
     -fx-background-color: #f153f7;
     -fx-background-insets: 0, 0 0 1 0;
+}
+
+.table-view .column-header .label {
+    /*-fx-text-fill: white;*/
+    -fx-font-weight: bold;
 }
 
 /*menu items */
@@ -64,3 +68,15 @@
 .button:hover {
     -fx-background-color: linear-gradient(#2A5058, #61a2b1);
 }
+
+#dialogpane {
+    -fx-background-image: url("images/background.jpg");
+}
+
+#dialogpane .label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 0, 0, 0, 1);
+}
+

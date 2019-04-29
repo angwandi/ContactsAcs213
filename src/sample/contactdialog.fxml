@@ -1,8 +1,6 @@
-<?import javafx.scene.control.DialogPane?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
-<DialogPane fx:controller="sample.ContactController" xmlns:fx="http://javafx.com/fxml">
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<DialogPane xmlns:fx="http://javafx.com/fxml" fx:controller="sample.ContactController" fx:id="dialogpane">
     <headerText>
         Fill in the information for the new Contact :
     </headerText>
