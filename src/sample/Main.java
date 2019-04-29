@@ -9,18 +9,15 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         Parent root;
         root = FXMLLoader.load(getClass().getResource("/sample/main.fxml"));
-        Scene scene = new Scene(root);
+        Scene scene = new Scene(root, 600, 300);
         scene.getStylesheets().add("/sample/style.css");
         primaryStage.setTitle("My Contacts");
-//        primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.setScene(scene);
         primaryStage.show();
     }
-
-
     public static void main(String[] args) {
         launch(args);
     }

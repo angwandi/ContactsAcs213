@@ -5,19 +5,11 @@
             xmlns:fx="http://javafx.com/fxml">
     <top>
         <MenuBar>
-            <menus>
-                <Menu text="Contacts">
-                    <items>
-                        <MenuItem text="Add..." onAction="#showAddContactDialog"/>
-                    </items>
-                    <items>
-                        <MenuItem text="Edit..." onAction="#showEditContactDialog"/>
-                    </items>
-                    <items>
-                        <MenuItem text="Delete" onAction="#deleteContact"/>
-                    </items>
-                </Menu>
-            </menus>
+            <Menu text="Contacts">
+                <MenuItem text="Add..." onAction="#showAddContactDialog"/>
+                <MenuItem text="Delete" onAction="#deleteContact"/>
+                <MenuItem text="Edit..." onAction="#showEditContactDialog"/>
+            </Menu>
         </MenuBar>
     </top>
 
