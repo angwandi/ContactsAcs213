@@ -12,8 +12,11 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root;
         root = FXMLLoader.load(getClass().getResource("/sample/main.fxml"));
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("/sample/style.css");
         primaryStage.setTitle("My Contacts");
-        primaryStage.setScene(new Scene(root, 600, 400));
+//        primaryStage.setScene(new Scene(root, 600, 400));
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 

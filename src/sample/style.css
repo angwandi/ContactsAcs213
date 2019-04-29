@@ -1,0 +1,28 @@
+/*.table-view {*/
+/*-fx-background-color: rgb(225, 228, 203);*/
+/*!*-fx-background-image: url("images/network-3537401_1920.jpg");*!*/
+/*}*/
+/*.table-view .filler {*/
+/*-fx-background-color: lightgreen;*/
+/*}*/
+
+.root {
+    -fx-background-color: rgb(225, 228, 203);
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view:focused {
+    -fx-background-color: transparent;
+}
+
+/*.table-row-cell:odd {*/
+/*-fx-background-color: #cacaca;*/
+/*-fx-background-insets: 0, 0 0 1 0;*/
+/*}*/
+/*.table-row-cell:even{*/
+/*-fx-background-color: #919191;*/
+/*-fx-background-insets: 0, 0 0 1 0;*/
+/*}*/

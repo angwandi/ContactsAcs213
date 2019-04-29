@@ -19,26 +19,26 @@ public class ContactController {
     private TextField notesField;
 
     public Contact getNewContact() {
-        String firstName = firstNameField.getText();
-        String lastName = lastNameField.getText();
-        String phoneNumber = phoneNumberField.getText();
-        String notes = notesField.getText();
+        String firstName = firstNameField.getText().trim();
+        String lastName = lastNameField.getText().trim();
+        String phoneNumber = phoneNumberField.getText().trim();
+        String notes = notesField.getText().trim();
 
         return new Contact(firstName, lastName, phoneNumber, notes);
     }
 
     public void editContact(Contact contact) {
-        firstNameField.setText(contact.getFirstName());
-        lastNameField.setText(contact.getLastName());
-        phoneNumberField.setText(contact.getPhoneNumber());
-        notesField.setText(contact.getNotes());
+        firstNameField.setText(contact.getFirstName().trim());
+        lastNameField.setText(contact.getLastName().trim());
+        phoneNumberField.setText(contact.getPhoneNumber().trim());
+        notesField.setText(contact.getNotes().trim());
     }
 
     public void updateContact(Contact contact) {
-        contact.setFirstName(firstNameField.getText());
-        contact.setLastName(lastNameField.getText());
-        contact.setPhoneNumber(phoneNumberField.getText());
-        contact.setNotes(notesField.getText());
+        contact.setFirstName(firstNameField.getText().trim());
+        contact.setLastName(lastNameField.getText().trim());
+        contact.setPhoneNumber(phoneNumberField.getText().trim());
+        contact.setNotes(notesField.getText().trim());
     }
 
 }
