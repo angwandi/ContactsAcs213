@@ -3,7 +3,6 @@
 <?import javafx.scene.layout.BorderPane?>
 <BorderPane fx:id="mainPanel" fx:controller="sample.Controller"
             xmlns:fx="http://javafx.com/fxml">
-    <!--stylesheets="/sample/style.css"-->
     <top>
         <MenuBar>
             <menus>

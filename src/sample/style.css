@@ -18,11 +18,18 @@
     -fx-background-color: transparent;
 }
 
-/*.table-row-cell:odd {*/
-/*-fx-background-color: #cacaca;*/
-/*-fx-background-insets: 0, 0 0 1 0;*/
-/*}*/
-/*.table-row-cell:even{*/
-/*-fx-background-color: #919191;*/
-/*-fx-background-insets: 0, 0 0 1 0;*/
-/*}*/
+.table-row-cell:odd {
+    -fx-background-color: #f1f8e9;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #e8eaf6;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #f153f7;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
